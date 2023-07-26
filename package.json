@@ -1,5 +1,9 @@
 {
-  "devDependencies": {
-    "tailwindcss": "^3.3.3"
+  "name": "myportfoliov2",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node index.js",
+    "build": "webpack --mode=production",
+    "tw": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
   }
 }
